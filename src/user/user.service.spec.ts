@@ -8,7 +8,7 @@ describe("UserService", () => {
     let repositoryMock: TypeMoq.IMock<IUserRepository>;
 
     const users: User[] = [{
-        id : 1, age :45, firstName :'Bob', lastName:'Marley'
+        id : 1, age :46, firstName :'Bob', lastName:'Marley'
     }];
 
     beforeEach(()=>{

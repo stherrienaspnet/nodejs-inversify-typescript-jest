@@ -20,7 +20,7 @@ export class UserRepository implements IUserRepository {
         user1.id = 1;
         user1.firstName = 'Bob';
         user1.lastName = 'Marley';
-        user1.age = 45;
+        user1.age = 22;
         this._users.push(user1);
 
         let user2 = new User();
